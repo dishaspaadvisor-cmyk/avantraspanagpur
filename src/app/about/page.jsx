@@ -139,47 +139,7 @@ export default function AboutPage() {
         </div>
       </div>
 
-      {/* Why Choose Us */}
-      <div className="mt-28 rounded-[40px] border border-amber-500/20 bg-gradient-to-r from-amber-500/10 to-transparent p-10 backdrop-blur-xl">
-        <h2 className="text-center text-4xl font-bold">
-          Why Choose Avantra Spa?
-        </h2>
 
-        <p className="mx-auto mt-5 max-w-3xl text-center text-gray-300">
-          We combine luxury, professionalism, and personalized wellness
-          experiences to create a spa journey that revitalizes your body,
-          mind, and spirit.
-        </p>
-
-        <div className="mt-10 grid gap-6 md:grid-cols-3">
-          <div className="rounded-2xl bg-black/30 p-6 text-center">
-            <h3 className="text-xl font-semibold text-amber-400">
-              Premium Therapies
-            </h3>
-            <p className="mt-3 text-gray-400">
-              Carefully curated treatments for complete relaxation.
-            </p>
-          </div>
-
-          <div className="rounded-2xl bg-black/30 p-6 text-center">
-            <h3 className="text-xl font-semibold text-amber-400">
-              Expert Team
-            </h3>
-            <p className="mt-3 text-gray-400">
-              Experienced therapists delivering exceptional care.
-            </p>
-          </div>
-
-          <div className="rounded-2xl bg-black/30 p-6 text-center">
-            <h3 className="text-xl font-semibold text-amber-400">
-              Luxury Environment
-            </h3>
-            <p className="mt-3 text-gray-400">
-              A peaceful retreat designed for comfort and wellness.
-            </p>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
  );
