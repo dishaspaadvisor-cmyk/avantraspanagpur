@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = "https://www.avantaraspa.com"; // Replace with your domain
+  const baseUrl = "https://avantraspanagpur.in"; // Replace with your domain
 
   return [
     {
