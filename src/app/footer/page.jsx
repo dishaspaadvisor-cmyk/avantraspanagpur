@@ -3,12 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { MapPin, Phone, Mail } from "lucide-react";
-import {
-  FaInstagram,
-  FaFacebookF,
-  FaGoogle,
-  FaXTwitter,
-} from "react-icons/fa6";
+import { FaFacebookF, FaLinkedinIn, FaPinterestP } from "react-icons/fa";
 
 export default function Footer() {
   return (<footer className="relative overflow-hidden border-t border-amber-500/10 bg-black text-white">
@@ -34,18 +29,10 @@ export default function Footer() {
           </p>
 
           {/* Social */}
+        
           <div className="mt-5 flex gap-2">
             <a
-              href="https://instagram.com/yourusername"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/5 transition hover:border-pink-500 hover:text-pink-500"
-            >
-              <FaInstagram size={16} />
-            </a>
-
-            <a
-              href="https://facebook.com/yourpage"
+              href="https://www.facebook.com/Avantra.Nagpur/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/5 transition hover:border-blue-500 hover:text-blue-500"
@@ -54,21 +41,21 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://g.page/r/your-google-business-link"
+              href="https://www.linkedin.com/in/avantra-spa-nagpur/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/5 transition hover:border-red-500 hover:text-red-500"
+              className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/5 transition hover:border-blue-600 hover:text-blue-600"
             >
-              <FaGoogle size={16} />
+              <FaLinkedinIn size={16} />
             </a>
 
             <a
-              href="https://x.com/yourusername"
+              href="https://in.pinterest.com/avantraspa/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/5 transition hover:border-white hover:text-white"
+              className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/5 transition hover:border-red-600 hover:text-red-600"
             >
-              <FaXTwitter size={16} />
+              <FaPinterestP size={16} />
             </a>
           </div>
         </div>
@@ -125,10 +112,10 @@ export default function Footer() {
               <p>
                 Office No. 202, 2nd Floor, Gomti Apartment,
                 <br />
-                 Plot No. 39,
-                 Khasra No. 31, Aura Building,
+                Plot No. 39,
+                Khasra No. 31, Aura Building,
                 <br />
-                 Law College Square, Dharampeth Road, Nagpur, Maharashtra 440001
+                Law College Square, Dharampeth Road, Nagpur, Maharashtra 440001
               </p>
             </div>
 
@@ -189,5 +176,5 @@ export default function Footer() {
       </div>
     </div>
   </footer>
- );
+  );
 }
