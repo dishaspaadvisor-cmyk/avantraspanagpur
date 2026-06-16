@@ -29,7 +29,7 @@ export default function Footer() {
           </p>
 
           {/* Social */}
-        
+
           <div className="mt-5 flex gap-2">
             <a
               href="https://www.facebook.com/Avantra.Nagpur/"
@@ -161,7 +161,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom Bar */}
       <div className="mt-8 border-t border-white/10 pt-4">
         <div className="flex flex-col items-center justify-between gap-2 text-center md:flex-row">
           <p className="text-xs text-gray-500">
@@ -174,7 +173,23 @@ export default function Footer() {
           </p>
         </div>
       </div>
+      <Link
+        href="/privacy-policy"
+        className="text-slate-400 hover:text-pink-400 transition"
+      >
+        Privacy Policy
+      </Link>
+
+      <Link
+        href="/terms-conditions"
+        className="text-slate-400 hover:text-pink-400 transition"
+      >
+        Terms & Conditions
+      </Link>
+
+
     </div>
+
   </footer>
   );
 }

@@ -62,7 +62,7 @@ export default function Navbar() {
 
           <a
             href="tel:+918624885133"
-            className="flex items-center gap-2 rounded-full bg-amber-500 px-6 py-3 font-semibold text-black transition hover:bg-amber-400"
+            className="flex items-center gap-2 rounded-full bg-cyan-500 px-6 py-3 font-semibold text-black transition hover:bg-amber-400"
           >
             <Phone size={18} />
             Call Now
@@ -90,7 +90,7 @@ export default function Navbar() {
               key={link.name}
               href={link.href}
               onClick={() => setIsOpen(false)}
-              className="text-lg text-white transition hover:text-amber-400"
+              className="text-lg text-white transition hover:text-cyan-600"
             >
               {link.name}
             </Link>
@@ -98,7 +98,7 @@ export default function Navbar() {
 
           <a
             href="tel:+919999999999"
-            className="rounded-full bg-amber-500 px-6 py-3 font-semibold text-black"
+            className="rounded-full hover:text-cyan-600 px-6 py-3 font-semibold text-black"
           >
             Call Now
           </a>

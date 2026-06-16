@@ -31,7 +31,7 @@ export default function OfferCard({ image, phone, whatsapp, id }) {
 
           <Link
             href={`tel:${phone}`}
-            className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-yellow-500 py-3 font-semibold text-black transition hover:bg-yellow-400"
+            className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-cyan-500 py-3 font-semibold text-black transition hover:bg-yellow-400"
           >
             <Phone size={20} />
             Call Now
@@ -52,7 +52,7 @@ export default function OfferCard({ image, phone, whatsapp, id }) {
 
         <Link
           href={`tel:${phone}`}
-          className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-yellow-500 py-3 text-sm font-semibold text-black"
+          className="flex flex-1 items-center justify-center gap-2 rounded-xl  bg-cyan-500 py-3 text-sm font-semibold text-black"
         >
           <Phone size={18} />
           Call Now

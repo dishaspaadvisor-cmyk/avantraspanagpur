@@ -28,14 +28,14 @@ export default function FAQSection({
     <div className="relative mx-auto max-w-5xl px-4 sm:px-6">
       {/* Header */}
       <div className="mb-12 text-center">
-        <div className="inline-flex items-center gap-2 rounded-full border border-yellow-500/20 bg-yellow-500/10 px-4 py-2 text-sm font-medium text-yellow-400">
+        <div className="inline-flex items-center gap-2 rounded-full border border-yellow-500/20 bg-yellow-500/10 px-4 py-2 text-sm font-medium bg-cyan-500-400">
           <Sparkles size={14} />
           Frequently Asked Questions
         </div>
 
         <h2 className="mt-4 text-3xl font-bold text-white md:text-5xl">
           Spa FAQs &
-          <span className="block text-yellow-400">
+          <span className="block bg-cyan-500-400">
             Wellness Information
           </span>
         </h2>
@@ -72,7 +72,7 @@ export default function FAQSection({
 
               <ChevronDown
                 size={20}
-                className={`flex-shrink-0 text-yellow-400 transition-transform duration-300 ${activeIndex === index ? "rotate-180" : ""
+                className={`flex-shrink-0 bg-cyan-500-400 transition-transform duration-300 ${activeIndex === index ? "rotate-180" : ""
                   }`}
               />
             </button>
@@ -105,7 +105,7 @@ export default function FAQSection({
         <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:justify-center">
           <a
             href={`tel:${phone}`}
-            className="inline-flex items-center justify-center gap-2 rounded-full bg-yellow-500 px-6 py-3 font-semibold text-black transition hover:bg-yellow-400"
+            className="inline-flex items-center justify-center gap-2 rounded-full bg-cyan-500 px-6 py-3 font-semibold text-black transition hover:bg-yellow-400"
           >
             <Phone size={18} />
             Call Now

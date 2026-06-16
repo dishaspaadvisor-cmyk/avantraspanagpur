@@ -20,14 +20,14 @@ export default function OfferPage() {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Heading */}
         <div className="mx-auto mb-14 max-w-4xl text-center sm:mb-16">
-          <div className="inline-flex items-center gap-2 rounded-full border border-yellow-500/30 bg-yellow-500/10 px-4 py-2 text-sm font-semibold uppercase tracking-wider text-yellow-400">
+          <div className="inline-flex items-center gap-2 rounded-full border border-yellow-500/30 bg-yellow-500/10 px-4 py-2 text-sm font-semibold uppercase tracking-wider bg-cyan-500-400">
             <Sparkles size={16} />
             Special Spa Offers
           </div>
 
           <h2 className="mt-6 text-2xl font-bold leading-tight text-white sm:text-4xl md:text-5xl lg:text-4xl">
             Exclusive Luxury
-            <span className="block text-yellow-400">
+            <span className="block bg-cyan-500-400">
               Wellness Packages
             </span>
           </h2>
@@ -36,7 +36,7 @@ export default function OfferPage() {
         {/* Features */}
         <div className="mb-12 grid gap-4 sm:grid-cols-3">
           <div className="rounded-2xl border border-zinc-800 bg-zinc-900/50 p-5 text-center">
-            <Gift className="mx-auto mb-3 text-yellow-400" size={28} />
+            <Gift className="mx-auto mb-3 bg-cyan-500-400" size={28} />
             <h3 className="font-semibold text-white">
               Exclusive Discounts
             </h3>
@@ -46,7 +46,7 @@ export default function OfferPage() {
           </div>
 
           <div className="rounded-2xl border border-zinc-800 bg-zinc-900/50 p-5 text-center">
-            <Sparkles className="mx-auto mb-3 text-yellow-400" size={28} />
+            <Sparkles className="mx-auto mb-3 bg-cyan-500-400" size={28} />
             <h3 className="font-semibold text-white">
               Luxury Experience
             </h3>
@@ -56,7 +56,7 @@ export default function OfferPage() {
           </div>
 
           <div className="rounded-2xl border border-zinc-800 bg-zinc-900/50 p-5 text-center">
-            <Crown className="mx-auto mb-3 text-yellow-400" size={28} />
+            <Crown className="mx-auto mb-3 bg-cyan-500-400" size={28} />
             <h3 className="font-semibold text-white">
               Expert Therapists
             </h3>
@@ -93,7 +93,7 @@ export default function OfferPage() {
           <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
             <a
               href={`tel:${phone}`}
-              className="rounded-full bg-yellow-500 px-8 py-3 font-semibold text-black transition-all duration-300 hover:scale-105 hover:bg-yellow-400"
+              className="rounded-full bg-cyan-500 px-8 py-3 font-semibold text-black transition-all duration-300 hover:scale-105 hover:bg-yellow-400"
             >
               Call Now
             </a>

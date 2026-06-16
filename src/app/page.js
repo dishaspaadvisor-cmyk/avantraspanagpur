@@ -123,7 +123,7 @@ export default function Home() {
       <section className="relative overflow-hidden bg-black py-20">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-16 text-center">
-            <span className="rounded-full border border-yellow-500/30 bg-yellow-500/10 px-5 py-2 text-sm font-semibold uppercase tracking-[0.2em] text-yellow-400">
+            <span className="rounded-full border border-yellow-500/30 bg-yellow-500/10 px-5 py-2 text-sm font-semibold uppercase tracking-[0.2em] bg-cyan-500-400">
               Limited Time Offers
             </span>
           </div>
@@ -169,7 +169,7 @@ export default function Home() {
                   </h3>
 
                   <ChevronDown
-                    className={`h-5 w-5 text-yellow-400 transition-transform ${
+                    className={`h-5 w-5 bg-cyan-500-400 transition-transform ${
                       activeIndex === index ? "rotate-180" : ""
                     }`}
                   />

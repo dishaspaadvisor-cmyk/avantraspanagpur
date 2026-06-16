@@ -33,18 +33,16 @@ export default function HeroSection({
       {slides.map((slide, index) => (
         <div
           key={index}
-          className={`absolute inset-0 transition-opacity duration-1000 ${
-            current === index ? "opacity-100" : "opacity-0"
-          }`}
+          className={`absolute inset-0 transition-opacity duration-1000 ${current === index ? "opacity-100" : "opacity-0"
+            }`}
         >
           <Image
             src={slide.image}
             alt={slide.title}
             fill
             priority={index === 0}
-            className={`object-cover transition-transform duration-[7000ms] ${
-              current === index ? "scale-110" : "scale-100"
-            }`}
+            className={`object-cover transition-transform duration-[7000ms] ${current === index ? "scale-110" : "scale-100"
+              }`}
           />
         </div>
       ))}
@@ -57,9 +55,9 @@ export default function HeroSection({
         <div className="mx-auto w-full max-w-7xl px-6 lg:px-8">
           <div className="max-w-4xl">
             {/* Badge */}
-            <span className="mb-5 inline-flex rounded-full border border-amber-400/50 bg-black/20 px-5 py-2 text-sm font-medium tracking-wider text-amber-400 backdrop-blur-md">
-               Best Spa in Nagpur
-            </span>            
+            <span className="mb-5 inline-flex rounded-full border border-amber-400/50 bg-black/20 px-5 py-2 text-sm font-medium tracking-wider bg-cyan-500 backdrop-blur-md">
+              Best Spa in Nagpur
+            </span>
 
             {/* Heading */}
             <h1 className="mb-6 text-4xl font-bold leading-tight text-white md:text-6xl lg:text-7xl">
@@ -77,9 +75,9 @@ export default function HeroSection({
             <div className="mb-12 flex flex-col gap-4 sm:flex-row">
               <a
                 href={`tel:${contact.phone}`}
-                className="rounded-full bg-amber-500 px-8 py-4 text-center font-semibold text-black transition-all duration-300 hover:scale-105 hover:bg-amber-400"
+                className="rounded-full  bg-cyan-500 px-8 py-4 text-center font-semibold text-black transition-all duration-300 hover:scale-105 hover:bg-amber-400"
               >
-                 Call now
+                Call now
               </a>
 
               <a
@@ -91,44 +89,34 @@ export default function HeroSection({
                 WhatsApp
               </a>
             </div>
-
-            {/* Stats */}
+          
+          {/* stats */}
             <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
-              <div className="rounded-2xl border border-white/10 bg-white/10 p-5 text-center backdrop-blur-md">
-                <h3 className="text-2xl font-bold text-amber-400">
-                  4.9★
-                </h3>
-                <p className="mt-1 text-sm text-gray-300">
-                  Google Rating
-                </p>
-              </div>
+              {[
+                { value: "4.9★", label: "Google Rating" },
+                { value: "500+", label: "Happy Clients" },
+                { value: "10+", label: "Spa Services" },
+                { value: "24/7", label: "Support" },
+              ].map((item, index) => (
+                <div
+                  key={index}
+                  className="group relative overflow-hidden rounded-3xl border border-cyan-500/20 bg-gradient-to-br from-slate-900/90 to-black/90 p-6 text-center backdrop-blur-lg transition-all duration-500 hover:-translate-y-2 hover:border-cyan-400/60 hover:shadow-[0_0_30px_rgba(34,211,238,0.25)]"
+                >
+                  {/* Aqua Glow */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 via-transparent to-cyan-400/10 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
 
-              <div className="rounded-2xl border border-white/10 bg-white/10 p-5 text-center backdrop-blur-md">
-                <h3 className="text-2xl font-bold text-amber-400">
-                  500+
-                </h3>
-                <p className="mt-1 text-sm text-gray-300">
-                  Happy Clients
-                </p>
-              </div>
+                  <h3 className="relative text-3xl font-bold text-cyan-400">
+                    {item.value}
+                  </h3>
 
-              <div className="rounded-2xl border border-white/10 bg-white/10 p-5 text-center backdrop-blur-md">
-                <h3 className="text-2xl font-bold text-amber-400">
-                  10+
-                </h3>
-                <p className="mt-1 text-sm text-gray-300">
-                  Spa Services
-                </p>
-              </div>
+                  <p className="relative mt-2 text-sm tracking-wide text-slate-300">
+                    {item.label}
+                  </p>
 
-              <div className="rounded-2xl border border-white/10 bg-white/10 p-5 text-center backdrop-blur-md">
-                <h3 className="text-2xl font-bold text-amber-400">
-                  24/7
-                </h3>
-                <p className="mt-1 text-sm text-gray-300">
-                  Support
-                </p>
-              </div>
+                  {/* Bottom Accent */}
+                  <div className="absolute bottom-0 left-0 h-1 w-0 bg-gradient-to-r from-cyan-400 to-teal-400 transition-all duration-500 group-hover:w-full" />
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -140,11 +128,10 @@ export default function HeroSection({
           <button
             key={index}
             onClick={() => setCurrent(index)}
-            className={`h-3 w-3 rounded-full transition-all duration-300 ${
-              current === index
+            className={`h-3 w-3 rounded-full transition-all duration-300 ${current === index
                 ? "bg-amber-500 w-8"
                 : "bg-white/50"
-            }`}
+              }`}
           />
         ))}
       </div>

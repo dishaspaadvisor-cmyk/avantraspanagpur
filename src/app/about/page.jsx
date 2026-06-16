@@ -29,7 +29,7 @@ export default function AboutPage() {
 
           {/* Floating Badge */}
           <div className="absolute -bottom-8 -right-8 rounded-3xl border border-amber-500/20 bg-black/90 px-8 py-6 backdrop-blur-xl shadow-[0_0_40px_rgba(245,158,11,0.2)]">
-            <h3 className="text-5xl font-bold text-amber-400">5+</h3>
+            <h3 className="text-5xl font-bold">5+</h3>
             <p className="mt-2 text-gray-300">
               Years of Wellness Excellence
             </p>
@@ -38,13 +38,13 @@ export default function AboutPage() {
 
         {/* Content */}
         <div>
-          <span className="rounded-full border border-amber-500/20 bg-amber-500/10 px-4 py-2 text-sm font-medium text-amber-400">
+          <span className="rounded-full border border-amber-500/20 bg-amber-500/10 px-4 py-2 text-sm font-medium ">
             Premium Spa Destination
           </span>
 
           <h2 className="mt-6 text-4xl font-bold leading-tight md:text-5xl">
             Discover Complete
-            <span className="block text-amber-400">
+            <span className="block ">
               Relaxation & Rejuvenation
             </span>
           </h2>
@@ -72,7 +72,7 @@ export default function AboutPage() {
           {/* Features */}
           <div className="mt-10 grid gap-4 sm:grid-cols-2">
             <div className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-md">
-              <Award className="mb-3 text-amber-400" size={24} />
+              <Award className="mb-3 " size={24} />
               <h4 className="font-semibold">Certified Therapists</h4>
               <p className="mt-2 text-sm text-gray-400">
                 Skilled professionals delivering exceptional treatments.
@@ -80,7 +80,7 @@ export default function AboutPage() {
             </div>
 
             <div className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-md">
-              <HeartHandshake className="mb-3 text-amber-400" size={24} />
+              <HeartHandshake className="mb-3 " size={24} />
               <h4 className="font-semibold">Personalized Care</h4>
               <p className="mt-2 text-sm text-gray-400">
                 Customized therapies based on your wellness goals.
@@ -88,7 +88,7 @@ export default function AboutPage() {
             </div>
 
             <div className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-md">
-              <Users className="mb-3 text-amber-400" size={24} />
+              <Users className="mb-3 " size={24} />
               <h4 className="font-semibold">500+ Happy Clients</h4>
               <p className="mt-2 text-sm text-gray-400">
                 Trusted by guests seeking premium wellness experiences.
@@ -96,7 +96,7 @@ export default function AboutPage() {
             </div>
 
             <div className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-md">
-              <Sparkles className="mb-3 text-amber-400" size={24} />
+              <Sparkles className="mb-3 " size={24} />
               <h4 className="font-semibold">Luxury Ambience</h4>
               <p className="mt-2 text-sm text-gray-400">
                 Elegant interiors crafted for ultimate relaxation.
@@ -108,7 +108,7 @@ export default function AboutPage() {
           <div className="mt-10">
             <a
               href="tel:+918624885133"
-              className="inline-flex items-center rounded-full bg-amber-500 px-8 py-4 font-semibold text-black transition-all duration-300 hover:scale-105 hover:bg-amber-400"
+              className="inline-flex items-center rounded-full bg-cyan-500 px-8 py-4 font-semibold text-black transition-all duration-300 hover:scale-105 hover:bg-amber-400"
             >
               Book Appointment
             </a>
@@ -119,22 +119,22 @@ export default function AboutPage() {
       {/* Stats Section */}
       <div className="mt-28 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         <div className="rounded-3xl border border-white/10 bg-white/5 p-8 text-center backdrop-blur-xl">
-          <h3 className="text-5xl font-bold text-amber-400">500+</h3>
+          <h3 className="text-5xl font-bold ">500+</h3>
           <p className="mt-3 text-gray-300">Happy Clients</p>
         </div>
 
         <div className="rounded-3xl border border-white/10 bg-white/5 p-8 text-center backdrop-blur-xl">
-          <h3 className="text-5xl font-bold text-amber-400">5+</h3>
+          <h3 className="text-5xl font-bold ">5+</h3>
           <p className="mt-3 text-gray-300">Years Experience</p>
         </div>
 
         <div className="rounded-3xl border border-white/10 bg-white/5 p-8 text-center backdrop-blur-xl">
-          <h3 className="text-5xl font-bold text-amber-400">20+</h3>
+          <h3 className="text-5xl font-bold ">20+</h3>
           <p className="mt-3 text-gray-300">Spa Treatments</p>
         </div>
 
         <div className="rounded-3xl border border-white/10 bg-white/5 p-8 text-center backdrop-blur-xl">
-          <h3 className="text-5xl font-bold text-amber-400">4.9★</h3>
+          <h3 className="text-5xl font-bold ">4.9★</h3>
           <p className="mt-3 text-gray-300">Customer Rating</p>
         </div>
       </div>

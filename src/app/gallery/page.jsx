@@ -39,14 +39,14 @@ export default function GalleryPage() {
       {/* Hero */}
       <section className="relative px-4 pt-24 pb-16 sm:px-6 lg:px-8 lg:pt-32">
         <div className="mx-auto max-w-7xl text-center">
-          <div className="inline-flex items-center gap-2 rounded-full border border-yellow-500/30 bg-yellow-500/10 px-5 py-2 text-sm font-semibold uppercase tracking-[0.2em] text-yellow-400">
+          <div className="inline-flex items-center gap-2 rounded-full border border-yellow-500/30 bg-yellow-500/10 px-5 py-2 text-sm font-semibold uppercase tracking-[0.2em] bg-cyan-500-400">
             <Images size={16} />
             Luxury Spa Gallery
           </div>
 
           <h1 className="mt-6 text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
             Explore Our
-            <span className="block bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-500 bg-clip-text text-transparent">
+            <span className="block  bg-clip-text bg-cyan-500">
               Wellness Sanctuary
             </span>
           </h1>
@@ -63,7 +63,7 @@ export default function GalleryPage() {
       <section className="relative px-4 sm:px-6 lg:px-8">
         <div className="mx-auto mb-16 grid max-w-7xl gap-6 md:grid-cols-3">
           <div className="rounded-3xl border border-zinc-800 bg-zinc-900/70 p-6 backdrop-blur-sm">
-            <Sparkles className="mb-4 text-yellow-400" size={28} />
+            <Sparkles className="mb-4 bg-cyan-500-400" size={28} />
             <h3 className="text-xl font-semibold text-white">
               Luxury Interiors
             </h3>
@@ -74,7 +74,7 @@ export default function GalleryPage() {
           </div>
 
           <div className="rounded-3xl border border-zinc-800 bg-zinc-900/70 p-6 backdrop-blur-sm">
-            <Camera className="mb-4 text-yellow-400" size={28} />
+            <Camera className="mb-4 bg-cyan-500-400" size={28} />
             <h3 className="text-xl font-semibold text-white">
               Premium Experience
             </h3>
@@ -84,7 +84,7 @@ export default function GalleryPage() {
           </div>
 
           <div className="rounded-3xl border border-zinc-800 bg-zinc-900/70 p-6 backdrop-blur-sm">
-            <Images className="mb-4 text-yellow-400" size={28} />
+            <Images className="mb-4 bg-cyan-500-400" size={28} />
             <h3 className="text-xl font-semibold text-white">
               Relaxing Environment
             </h3>
@@ -116,7 +116,7 @@ export default function GalleryPage() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 transition duration-500 group-hover:opacity-100" />
 
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 transition duration-500 group-hover:opacity-100">
-                  <div className="rounded-full bg-yellow-500 px-5 py-3 font-semibold text-black">
+                  <div className="rounded-full  bg-cyan-500 px-5 py-3 font-semibold text-black">
                     View Image
                   </div>
                 </div>

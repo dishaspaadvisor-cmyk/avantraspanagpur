@@ -13,13 +13,13 @@ export default function ContactPage() {
         <div className="relative max-w-7xl mx-auto">
             {/* Header */}
             <div className="text-center mb-16">
-                <span className="inline-block px-4 py-2 rounded-full bg-yellow-500/10 border border-yellow-500/20 text-yellow-400 text-sm font-semibold tracking-wide uppercase">
+                <span className="inline-block px-4 py-2 rounded-full bg-yellow-500/10 border border-yellow-500/20 bg-cyan-500-400 text-sm font-semibold tracking-wide uppercase">
                     Contact Us
                 </span>
 
                 <h1 className="mt-6 text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
                     Book Your{" "}
-                    <span className="bg-gradient-to-r from-yellow-300 to-yellow-500 bg-clip-text text-transparent">
+                    <span className="bg-gradient-to-r bg-cyan-500 bg-clip-text text-transparent">
                         Spa Experience
                     </span>
                 </h1>
@@ -37,12 +37,12 @@ export default function ContactPage() {
                     {/* Address */}
                     <div className="bg-gradient-to-br from-zinc-900 to-black rounded-3xl p-6 border border-yellow-500/20 backdrop-blur-xl shadow-[0_0_40px_rgba(234,179,8,0.08)] hover:shadow-[0_0_50px_rgba(234,179,8,0.15)] transition-all duration-300">
                         <div className="flex items-start gap-4">
-                            <MapPin className="text-yellow-400 w-7 h-7 mt-1 flex-shrink-0" />
+                            <MapPin className= "bg-cyan-500-400 w-7 h-7 mt-1 flex-shrink-0" />
                             <div>
                                 <h3 className="font-bold text-xl text-white">
                                     Visit Our Spa
                                 </h3>
-                                <p className="text-yellow-400 font-semibold mt-1">
+                                <p className= "bg-cyan-500-400 font-semibold mt-1">
                                     Avantra Spa Nagpur
                                 </p>
                                 <p className="text-gray-400 mt-3 leading-relaxed">
@@ -59,7 +59,7 @@ export default function ContactPage() {
                     {/* Phone */}
                     <div className="bg-gradient-to-br from-zinc-900 to-black rounded-3xl p-6 border border-yellow-500/20 backdrop-blur-xl shadow-[0_0_40px_rgba(234,179,8,0.08)] hover:shadow-[0_0_50px_rgba(234,179,8,0.15)] transition-all duration-300">
                         <div className="flex items-start gap-4">
-                            <Phone className="text-yellow-400 w-7 h-7 mt-1 flex-shrink-0" />
+                            <Phone className=" bg-cyan-500-400 w-7 h-7 mt-1 flex-shrink-0" />
                             <div>
                                 <h3 className="font-bold text-xl text-white">Call Us</h3>
                                 <a
@@ -95,7 +95,7 @@ export default function ContactPage() {
                     {/* Hours */}
                     <div className="bg-gradient-to-br from-zinc-900 to-black rounded-3xl p-6 border border-yellow-500/20 backdrop-blur-xl shadow-[0_0_40px_rgba(234,179,8,0.08)] hover:shadow-[0_0_50px_rgba(234,179,8,0.15)] transition-all duration-300">
                         <div className="flex items-start gap-4">
-                            <Clock className="text-yellow-400 w-7 h-7 mt-1 flex-shrink-0" />
+                            <Clock className= "bg-cyan-500-400 w-7 h-7 mt-1 flex-shrink-0" />
                             <div>
                                 <h3 className="font-bold text-xl text-white">
                                     Business Hours
@@ -113,7 +113,7 @@ export default function ContactPage() {
                     <div className="flex flex-wrap gap-4 pt-4">
                         <a
                             href="tel:+918624885133"
-                            className="bg-yellow-500 hover:bg-yellow-400 text-black px-8 py-4 rounded-full font-bold transition-all duration-300 hover:scale-105"
+                            className="bg-cyan-700 hover:bg-yellow-400 text-black px-8 py-4 rounded-full font-bold transition-all duration-300 hover:scale-105"
                         >
                             Call Now
                         </a>
@@ -170,7 +170,7 @@ export default function ContactPage() {
 
                         <button
                             type="submit"
-                            className="w-full rounded-xl bg-gradient-to-r from-yellow-500 to-yellow-400 py-4 font-bold text-black text-lg transition-all duration-300 hover:scale-[1.02]"
+                            className="w-full rounded-xl bg-gradient-to py-4 font-bold text-amber-50  bg-cyan-500 text-lg  duration-300 hover:scale-[1.02]"
                         >
                             Submit Booking Request
                         </button>
@@ -181,7 +181,7 @@ export default function ContactPage() {
             {/* Google Map */}
             <section className="mt-24">
                 <div className="text-center mb-10">
-                    <span className="inline-block rounded-full bg-yellow-500/10 border border-yellow-500/20 px-4 py-2 text-sm font-semibold text-yellow-400 uppercase">
+                    <span className="inline-block rounded-full bg-yellow-500/10 border border-yellow-500/20 px-4 py-2 text-sm font-semibold bg-cyan-500-400 uppercase">
                         Find Us
                     </span>
 

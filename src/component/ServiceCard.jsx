@@ -35,7 +35,7 @@ export default function ServiceCard({
         <div className="flex gap-3">
           <a
             href={`tel:${phone}`}
-            className="flex-1 rounded-full bg-amber-500 py-3 text-center font-semibold text-black transition hover:bg-amber-400"
+            className="flex-1 rounded-full bg-cyan-500 py-3 text-center font-semibold text-black transition hover:bg-amber-400"
           >
              Call
           </a>

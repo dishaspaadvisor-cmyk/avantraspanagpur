@@ -15,13 +15,13 @@ export default function ServicesPage() {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Hero */}
         <div className="mb-16 text-center lg:mb-20">
-          <span className="inline-flex items-center rounded-full border border-yellow-500/30 bg-yellow-500/10 px-5 py-2 text-sm font-semibold uppercase tracking-[0.2em] text-yellow-400">
+          <span className="inline-flex items-center rounded-full border border-yellow-500/30 bg-yellow-500/10 px-5 py-2 text-sm font-semibold uppercase tracking-[0.2em] bg-cyan-500-400">
             Premium Treatments
           </span>
 
           <h1 className="mt-6 text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
             Luxury Spa
-            <span className="block bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-500 bg-clip-text text-transparent">
+            <span className="block bg-gradient-to-r bg-cyan-500 bg-clip-text text-transparent">
               Services
             </span>
           </h1>
@@ -52,7 +52,7 @@ export default function ServicesPage() {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(234,179,8,0.15),transparent_60%)]" />
 
             <div className="relative">
-              <span className="inline-flex rounded-full border border-yellow-500/20 bg-yellow-500/10 px-4 py-2 text-sm font-semibold text-yellow-400">
+              <span className="inline-flex rounded-full border border-yellow-500/20 bg-yellow-500/10 px-4 py-2 text-sm font-semibold bg-cyan-500">
                 Wellness & Rejuvenation
               </span>
 
@@ -68,7 +68,7 @@ export default function ServicesPage() {
               <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
                 <a
                   href={`tel:${contact.phone}`}
-                  className="rounded-full bg-gradient-to-r from-yellow-400 to-yellow-500 px-8 py-4 font-bold text-black transition-all duration-300 hover:scale-105"
+                  className="rounded-full  bg-cyan-500 px-8 py-4 font-bold text-black transition-all duration-300 hover:scale-105"
                 >
                   Call Now
                 </a>
@@ -85,7 +85,7 @@ export default function ServicesPage() {
 
               <div className="mt-10 grid grid-cols-3 gap-4 border-t border-zinc-800 pt-8">
                 <div>
-                  <h3 className="text-2xl font-bold text-yellow-400">
+                  <h3 className="text-2xl font-bold bg-cyan-500-400">
                     6+
                   </h3>
                   <p className="text-sm text-zinc-500">
@@ -94,7 +94,7 @@ export default function ServicesPage() {
                 </div>
 
                 <div>
-                  <h3 className="text-2xl font-bold text-yellow-400">
+                  <h3 className="text-2xl font-bold bg-cyan-500-400">
                     100%
                   </h3>
                   <p className="text-sm text-zinc-500">
@@ -103,7 +103,7 @@ export default function ServicesPage() {
                 </div>
 
                 <div>
-                  <h3 className="text-2xl font-bold text-yellow-400">
+                  <h3 className="text-2xl font-bold bg-cyan-500-400">
                     Daily
                   </h3>
                   <p className="text-sm text-zinc-500">

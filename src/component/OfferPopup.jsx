@@ -51,7 +51,7 @@ export default function OfferPopup() {
 
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent" />
 
-              <div className="absolute bottom-4 left-4 rounded-full border border-yellow-500/30 bg-yellow-500/10 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-yellow-400 backdrop-blur-sm">
+              <div className="absolute bottom-4 left-4 rounded-full border border-yellow-500/30 bg-yellow-500/10 px-4 py-2 text-xs font-semibold uppercase tracking-wider bg-cyan-500-400 backdrop-blur-sm">
                 Limited Time Offer
               </div>
             </div>
@@ -70,7 +70,7 @@ export default function OfferPopup() {
               <div className="mt-6 flex flex-col gap-3">
                 <a
                   href="tel:+918624885133"
-                  className="inline-flex items-center justify-center gap-2 rounded-full bg-yellow-500 px-6 py-3 font-semibold text-black transition hover:bg-yellow-400"
+                  className="inline-flex items-center justify-center gap-2 rounded-full bg-cyan-500 px-6 py-3 font-semibold text-black transition hover:bg-yellow-400"
                 >
                   <Phone size={18} />
                   Call Now
