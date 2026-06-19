@@ -45,12 +45,16 @@ const geistMono = Geist_Mono({
 
 
 
+
 export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable}`}
     >
+      <head>
+      <meta name="google-site-verification" content="6pl5z04jRmpTPNbPShYAFAXS6uZx9lqhhqmOVVLyoS8" />
+      </head>
       <body className="min-h-screen flex flex-col">
         <Navbar />
 
